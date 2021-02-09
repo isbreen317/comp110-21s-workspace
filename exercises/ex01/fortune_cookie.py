@@ -14,13 +14,14 @@ from random import randint
 
 # Begin your solution here...
 print ("Your fortune cookie says...")
-x = randint(1,6)
+x = randint(1,7)
 if (x < 3):
     print("A beautiful, smart, and loving person will be coming into your life")
 else:
     if (x == 3):
             print("Your life will be happy and peaceful.")
     else:
-        if (x > 3):
+        if (x == 4):
                     print("Soon life will become more interesting.")
+        else: print("Looks like you do well in your classes!")
 print("Now, go spread positive vibes!")
